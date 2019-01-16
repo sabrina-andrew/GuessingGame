@@ -15,6 +15,11 @@ namespace GuessingGame
                 Console.WriteLine("You win!");
             }
 
+            else if (userGuess.Equals("0"))
+            {
+                Console.WriteLine("Please follow all of the instructions");
+            }
+
             else
             {
                 Console.WriteLine("You lost");  //If input is anything other than 7 they lose
