@@ -15,7 +15,7 @@ namespace GuessingGame
                 Console.WriteLine("You win!");
             }
 
-            else if (userGuess.Equals("0"))
+            else if (userGuess.Equals("0"))  //Reminds them to follow instructions
             {
                 Console.WriteLine("Please follow all of the instructions");
             }
